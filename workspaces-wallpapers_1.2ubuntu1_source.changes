@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 01 Feb 2020 15:02:58 -0600
+Source: workspaces-wallpapers
+Architecture: source
+Version: 1.2ubuntu1
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-wallpapers (1.2ubuntu1) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ c26fcab1b64ab306b12f2d22e33d659dcf507c44 1645 workspaces-wallpapers_1.2ubuntu1.dsc
+ d0702238ca07b77b4551e39d76ab8043f07843ed 9228024 workspaces-wallpapers_1.2ubuntu1.tar.xz
+ eb6ddad5a6e662d38991b4bef6dd38d8d44f9e16 7160 workspaces-wallpapers_1.2ubuntu1_source.buildinfo
+Checksums-Sha256:
+ 3130dd9b679240630c8165a6a606bd33fcc1e609b7df2f5b35867822ad5cd1a8 1645 workspaces-wallpapers_1.2ubuntu1.dsc
+ 980781b42d25a2898abbda8f2161c2e9499eebd733a7f2dc597d96a7dda4a0df 9228024 workspaces-wallpapers_1.2ubuntu1.tar.xz
+ 8f88d2f42dc2ead1ea63c22cb3dda13eb11a72e31c3bf9c7dca2073b3ef1a6c2 7160 workspaces-wallpapers_1.2ubuntu1_source.buildinfo
+Files:
+ 69f04d19af0206cb3c475fd3c1c2476b 1645 x11 optional workspaces-wallpapers_1.2ubuntu1.dsc
+ cb207dd299d50bd0cee9188eb9deef15 9228024 x11 optional workspaces-wallpapers_1.2ubuntu1.tar.xz
+ 57fd71c85cbfc4a1b753bb08a29f37e9 7160 x11 optional workspaces-wallpapers_1.2ubuntu1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl4154YACgkQ4dwtItTb
+NMiydg//XUtunmQX5JR37PQXDNey6DBcRvU4qv6djJLSXu47EPISqRz04SsQXlI+
+cOsmuG/NxOBAPESJ5AalryOM4ie1xCi/oUg4SurBGGFVnGEPVehxRuOuo9Oh57lU
+Wjk/MixBukG41R3OEO8cF/3ShIW+AigYt0fuhkZRTQuRaP/oFMbZawDg1WoXKY2O
+t4hVGyF3gn0kXvnVePCxD8WadvCKPqomZZh5t13Z7YOxuJuvWCNe3zEwZzIhA5eR
+zxzquU22Mph7mPF/rz595G7hggs2VNytMJH7gDAUh3NxL1oH7bA5tkOX5NCYGAH8
+QZrD+qLk2zw73HNrPYP5zXKzc5PHHQYy0jfJlvPd2WnmHHs+dyLdMgsXxlT5lDEz
+UhZKEsHmIuf69IHMceXXN4I8McYhv1EymicGFGq8TH2tdhYRC/uCAXINueiBiIUJ
+daFmwFRxnz/I0nJFV28wiRodqP6AVD5EHlGW577Jo6RsX4fArcecURrHgAhvpodO
+oBfrlgSuY5DK0SklGVaYOBTvUlA4ZM6Fv9Yh4NZ4jYQcimTvmeGiIvrX5jLHGI4C
+pD4zqt2jbYQZaufbUoEF2vneC49eWem2SifjYASgIKU0B/6llUtQIQ4FcbCzO9aS
+YpoDHqqPW319Sv9X4v0oOw3bMKLd5VgFATqitME5F0Fln7cW0DI=
+=6eTq
+-----END PGP SIGNATURE-----
