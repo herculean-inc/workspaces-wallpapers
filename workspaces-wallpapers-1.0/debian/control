@@ -10,5 +10,4 @@ Vcs-Git: https://github.com/herculean-inc/workspaces-wallpapers.git
 Package: workspaces-wallpapers
 Architecture: all
 Provides: ubuntu-wallpapers
-Description: Workspaces Wallpapers
-A collection of wallpapers for Workspaces OS.
+Description: A collection of wallpapers for Workspaces OS.
