@@ -1,0 +1,10 @@
+Package: workspaces-wallpapers
+Version: 1.2ubuntu1
+Architecture: all
+Maintainer: Herculean Inc <hello@hercules.dev>
+Installed-Size: 6280
+Provides: ubuntu-wallpapers
+Section: x11
+Priority: optional
+Homepage: https://github.com/herculean-inc/workspaces-wallpapers.git
+Description: A collection of wallpapers for Workspaces OS.

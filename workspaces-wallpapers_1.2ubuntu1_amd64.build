@@ -1,0 +1,92 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package workspaces-wallpapers
+dpkg-buildpackage: info: source version 1.2ubuntu1
+dpkg-buildpackage: info: source distribution eoan
+dpkg-buildpackage: info: source changed by Herculean Inc <hello@hercules.dev>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_auto_clean
+	make -j8 clean
+make[1]: Entering directory '/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1'
+rm -rf build scaled
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1'
+   dh_clean
+ dpkg-source -b .
+dpkg-source: warning: Version number suggests Ubuntu changes, but Maintainer: does not have Ubuntu address
+dpkg-source: warning: Version number suggests Ubuntu changes, but there is no XSBC-Original-Maintainer field
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building workspaces-wallpapers in workspaces-wallpapers_1.2ubuntu1.tar.xz
+dpkg-source: info: building workspaces-wallpapers in workspaces-wallpapers_1.2ubuntu1.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   dh_auto_configure
+   dh_auto_build
+	make -j8
+make[1]: Entering directory '/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1'
+convert "original/mountains.jpg" -resize "3840x2160^" "build/mountains.jpg"
+convert "original/workspaces.jpg" -resize "3840x2160^" "build/workspaces.jpg"
+mv "build/mountains.jpg" "scaled/mountains.jpg"
+mv "build/workspaces.jpg" "scaled/workspaces.jpg"
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" > "build/info.xml"
+echo "<!DOCTYPE wallpapers SYSTEM \"gnome-wp-list.dtd\">" >> "build/info.xml"
+echo "<wallpapers>" >> "build/info.xml"
+for file in scaled/mountains.jpg scaled/workspaces.jpg; do \
+	filename="$(basename "$file")"; \
+	name="${filename%.*}"; \
+	echo "    <wallpaper>" >> "build/info.xml"; \
+	echo "        <name>$name</name>" >> "build/info.xml"; \
+	echo "        <filename>/usr/share/backgrounds/workspaces/$(basename "$file")</filename>" >> "build/info.xml"; \
+	echo "        <options>zoom</options>" >> "build/info.xml"; \
+	echo "        <pcolor>#000000</pcolor>" >> "build/info.xml"; \
+	echo "        <scolor>#000000</scolor>" >> "build/info.xml"; \
+	echo "        <shade_type>solid</shade_type>" >> "build/info.xml"; \
+	echo "    </wallpaper>" >> "build/info.xml"; \
+done
+echo "</wallpapers>" >> "build/info.xml"
+mv "build/info.xml" "scaled/info.xml"
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1'
+   dh_auto_test
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+	make -j8 install DESTDIR=/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1/debian/workspaces-wallpapers AM_UPDATE_INFO_DIR=no
+make[1]: Entering directory '/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1'
+for file in scaled/mountains.jpg scaled/workspaces.jpg; do \
+	install -D -m 0644 "$file" "/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1/debian/workspaces-wallpapers/usr/share/backgrounds/workspaces/$(basename "$file")"; \
+done
+install -D -m 0644 "scaled/info.xml" "/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1/debian/workspaces-wallpapers/usr/share/gnome-background-properties/workspaces-wallpapers.xml"
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-wallpapers/workspaces-wallpapers-1.2ubuntu1'
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'workspaces-wallpapers' in '../workspaces-wallpapers_1.2ubuntu1_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../workspaces-wallpapers_1.2ubuntu1_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian workspaces-wallpapers_1.2ubuntu1_amd64.changes ...
+W: workspaces-wallpapers source: debhelper-but-no-misc-depends workspaces-wallpapers
+W: workspaces-wallpapers source: no-debian-copyright
+E: workspaces-wallpapers source: invalid-standards-version 1.0
+W: workspaces-wallpapers: syntax-error-in-debian-changelog line 15 "badly formatted heading line"
+E: workspaces-wallpapers: no-copyright-file
+W: workspaces-wallpapers: description-synopsis-starts-with-article
+E: workspaces-wallpapers: extended-description-is-empty
+Finished running lintian.
