@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 31 Jan 2020 22:20:55 -0600
+Source: workspaces-wallpapers
+Architecture: source
+Version: 1.2
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-wallpapers (1.2) eoan; urgency=medium
+ .
+   *
+Checksums-Sha1:
+ d5499575dee147dee42d6c14a4dc91406a7c7025 1617 workspaces-wallpapers_1.2.dsc
+ bc740b8ca67abc17e2d66d164f2f664fa539db52 8291636 workspaces-wallpapers_1.2.tar.xz
+ 690e2dd5453f9d6385e07d3ecb58f9c91999f8fb 7132 workspaces-wallpapers_1.2_source.buildinfo
+Checksums-Sha256:
+ ac4bb8ef5c59c401832a3c94a4079eae3aae942cd632d45d575c96afd666493e 1617 workspaces-wallpapers_1.2.dsc
+ 8d5b04dfdbd27ff3055fd5cfb16270ad789a656d7a48c262fe08f9c56aa43cd5 8291636 workspaces-wallpapers_1.2.tar.xz
+ d3a67eb3d3c6816046a860054d28a76bf0152f9d020ac4aaeab198b986697fc7 7132 workspaces-wallpapers_1.2_source.buildinfo
+Files:
+ 049a57b8bb0a809c8028e0dd68ef4662 1617 x11 optional workspaces-wallpapers_1.2.dsc
+ 17b54923a5767db586cc547efd66c97a 8291636 x11 optional workspaces-wallpapers_1.2.tar.xz
+ d3ba76013c7b435e4810e573031821f8 7132 x11 optional workspaces-wallpapers_1.2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl40/MwACgkQ4dwtItTb
+NMiKUg//YYAgtTANMfHuCCq6wHpvTKh+b1VNXj+87clAu1hPhZxBuLXmEXa0V8hE
+0c7gwXESnUebfBS+VZzs0LG9py34qF/ApiCCZtM+dZxs8lqmezW/LmNSBUhW6h2A
+FDwJkeMcmnTAD1B+cUT3/AVnBDaxMq82ogwzP9skn9ZvOEyv/Ojag5KlGaDJAglG
+KSFSojsUy3OL44xFKx1hdc4dOexLRw+9QkZEhXptnsiT4LcO8xNKRhP6fUSiLWhk
+QCHn2p6r8mnmwuYAQcso7Kp3j1ZcmddCbG/I2Qs15knIKMw3supfyHGa87Z5hO/S
+SA/4JcChhndpMEA9edPT6AKmixRC4Kv/PFEOrgcMEPcbazm7h5RB2ASBjp/5JqGO
+mJ12QKTbIEFM29YBYPtXe3WkJekjuNwb5nesNdSA89EMtW36lxpe77OlAvhYTNbc
+pmRbsPOluzEQczss3ttSxTPrG4hsVa0flEINBpmRvqqdrX7HqYy/9OZQ4f0lU8oS
+DkEwI61TfW6OsiRPJqnRURCHGmol00usq1ffJ7581u/NjmemOjkI/h7MK3xYpBig
+mwxSbfkAQp+v8zjron+uqiIAxKKIb5zh8dLbxnVkwOWVTMwsVDZcSN0b5heZ5DkY
+a9IzaDwZtGuiS7idSbQ49Xmb5/8KccokOvqZ5anmHmSS1JnizF4=
+=0XF1
+-----END PGP SIGNATURE-----
