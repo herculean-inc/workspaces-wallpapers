@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 02 Feb 2020 19:28:49 -0600
+Source: workspaces-wallpapers
+Binary: workspaces-wallpapers
+Architecture: source all
+Version: 1.2ubuntu3
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Description:
+ workspaces-wallpapers - A collection of wallpapers for Workspaces OS.
+Changes:
+ workspaces-wallpapers (1.2ubuntu3) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ ec250bfac81c2bee99d48436a3e623cffeee38ce 764 workspaces-wallpapers_1.2ubuntu3.dsc
+ 1299f84d04b85124ad2ec043c71528e1ac920cd4 9228028 workspaces-wallpapers_1.2ubuntu3.tar.xz
+ 0fc9bcdfbc933aac47bc8a3927c89241900ce2fc 6415220 workspaces-wallpapers_1.2ubuntu3_all.deb
+ e7268b4ec5e85da4175c331f82e6b0162515a5f9 6567 workspaces-wallpapers_1.2ubuntu3_amd64.buildinfo
+Checksums-Sha256:
+ 22103d6fa65079e516b8780f68ce9d00acd99114cd9d6f71fbf9d83ee96cf117 764 workspaces-wallpapers_1.2ubuntu3.dsc
+ b6a00a89cd4eade46768397d5458a608752bb5123f0806f0b0b233a33db1396b 9228028 workspaces-wallpapers_1.2ubuntu3.tar.xz
+ 6f7f42c7291c3edc851af05d2eb85603e6d36ca1a2a2fa93b75ccee4b9ef4331 6415220 workspaces-wallpapers_1.2ubuntu3_all.deb
+ 84b122413172cefee42dd2c60ce6fca91dd0fca5a7e0d17c199d51ad6d90c7a5 6567 workspaces-wallpapers_1.2ubuntu3_amd64.buildinfo
+Files:
+ 140c5765d39533e741572554b630a77c 764 x11 optional workspaces-wallpapers_1.2ubuntu3.dsc
+ 061d1733b4eaea64bed065949fb182a9 9228028 x11 optional workspaces-wallpapers_1.2ubuntu3.tar.xz
+ 39b1347f6820b97ebc6b1ad593014d85 6415220 x11 optional workspaces-wallpapers_1.2ubuntu3_all.deb
+ 05ad9877e7663d1e12f30041636a42ad 6567 x11 optional workspaces-wallpapers_1.2ubuntu3_amd64.buildinfo

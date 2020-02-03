@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Feb 2020 19:28:49 -0600
+Source: workspaces-wallpapers
+Architecture: source
+Version: 1.2ubuntu3
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-wallpapers (1.2ubuntu3) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ 777e7296b23b2e4ff8b0b904523508f6eab8d387 1647 workspaces-wallpapers_1.2ubuntu3.dsc
+ bbe939ab9ec3950f19f480d92a395dd90e718cb8 9228060 workspaces-wallpapers_1.2ubuntu3.tar.xz
+ 08537db49e9c088f5747823580f2809e18417b39 7160 workspaces-wallpapers_1.2ubuntu3_source.buildinfo
+Checksums-Sha256:
+ 90a5a79eeddae32244a1ce11ebf8d481b9fc701816b3fedbc1094c615bab8abc 1647 workspaces-wallpapers_1.2ubuntu3.dsc
+ 78f940b58d42c92de1448def71f46c5ece23c11683f5a66932b3dac9363c76f7 9228060 workspaces-wallpapers_1.2ubuntu3.tar.xz
+ f542381db559e99c81b8622f2a94df77a481654587f31b8cbdbe4b0385430e7c 7160 workspaces-wallpapers_1.2ubuntu3_source.buildinfo
+Files:
+ 4a145620bfd95a1372b682fe868cb5f8 1647 x11 optional workspaces-wallpapers_1.2ubuntu3.dsc
+ 6df95f459dc587a80f33d787e512aa93 9228060 x11 optional workspaces-wallpapers_1.2ubuntu3.tar.xz
+ d9b85733d35962aa48eea161e8085f43 7160 x11 optional workspaces-wallpapers_1.2ubuntu3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl43d1UACgkQ4dwtItTb
+NMipjQ/+IsplRqRtp3oUy9juQtjFeTL3zDMjoEALAux1F78kY4PIMB0uF/8hvBeE
+5dgYxv6M+hfrSpPkhaOtm1XbMC+MgGKQ5qRgn1XKpZcX8jRNlOdlYctrYK7jhXY6
+4hwJdL8ooEuCkBpHPbCk75dDav9G3ahlJVZTGw1rqdeeZ9Wy5YLc29CThoylJxnN
+85WWwHkIlNezI3EEDWd4scLz+3eDPf/peF6DwBUv8XmeJNChGJTrrwM2p3dHMcqv
+2bMLGCrECpuQuUUwW2/YsWB2WijHnnaMgfal3CU+NMATu6dvwWz2Dh+ECZGnjZsJ
+nBXQMcnaG371xgGAup7rgbTtzT8jxBCLUfDFW6sYDWSpmkM0RGhVYnAAxr3Z/wne
+DcRS3a5Y+JquX3IPsE5wZkvWGUVTgMF6z87DQnJOFNyXNXuHeu6TBJNs4qt9CSO1
+pOhYztgDukM5P1ZHTuSGQxHWADX2gKi2PDjFsYESPfgJxynXrFMBd06uI1UAw9hC
+l3W4JrYcGia1beyVLZGgthqDd88nD1yni+OFvyjCeIupwWDQxOblBJCCRwz3f58l
+KXkjiPaXiTsAHJL6J3/SAZ8xvqqBaYhcc2F4NNVzFsQQSP+2F+G024u8f5E13YSt
+8bF6qhZuveO3wP2YWkH53JyGfTCLUMYfBhE7ZGVezmd+J3aWJvI=
+=Ljx2
+-----END PGP SIGNATURE-----
