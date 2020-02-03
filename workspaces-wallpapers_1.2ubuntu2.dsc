@@ -8,7 +8,7 @@ Architecture: all
 Version: 1.2ubuntu2
 Maintainer: Herculean Inc <hello@hercules.dev>
 Homepage: https://github.com/herculean-inc/workspaces-wallpapers.git
-Standards-Version: 1.0
+Standards-Version: 4.4.0
 Vcs-Git: https://github.com/herculean-inc/workspaces-wallpapers.git
 Build-Depends: debhelper (>= 10), imagemagick
 Package-List:
